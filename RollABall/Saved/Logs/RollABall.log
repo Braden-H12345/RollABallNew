@@ -2613,3 +2613,249 @@ Script Stack (0 frames) :
 [2023.12.23-17.56.43:389][750]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
 [2023.12.23-17.56.44:613][750]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
 [2023.12.23-17.57.15:580][102]LogSlate: Window 'BallPawn' being destroyed
+[2023.12.23-17.58.44:537][550]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-17.58.44:638][551]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-17.59.01:622][769]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2023.12.23-17.59.03:347][792]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.12.23-17.59.03:366][792]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.12.23-17.59.03:380][793]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.12.23-17.59.07:730][852]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Ball
+[2023.12.23-17.59.07:745][852]LogContentBrowser: End creating deferred item NewMaterial
+[2023.12.23-17.59.09:545][872]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_Game/BallGame/M_Ball.M_Ball
+[2023.12.23-17.59.09:612][872]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-17.59.09:612][872]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.23-17.59.09:678][872]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Sphere_inversenormals) ...
+[2023.12.23-17.59.09:868][872]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.23-17.59.09:868][872]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-17.59.09:868][872]MaterialEditorStats: Shader Count: 0
+[2023.12.23-17.59.09:876][872]LogViewport: Scene viewport resized to 376x444, mode Windowed.
+[2023.12.23-17.59.10:572][896]LogShaderCompilers: Display: ================================================
+[2023.12.23-17.59.10:572][896]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.23-17.59.10:572][896]LogShaderCompilers: Display: Total job queries 86, among them cache hits 0 (0.00%)
+[2023.12.23-17.59.10:572][896]LogShaderCompilers: Display: Tracking 64 distinct input hashes that result in 56 distinct outputs (87.50%)
+[2023.12.23-17.59.10:572][896]LogShaderCompilers: Display: RAM used: 1.84 MiB of 819.20 MiB budget. Usage: 0.22%
+[2023.12.23-17.59.10:572][896]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.23-17.59.10:572][896]LogShaderCompilers: Display: Shaders Compiled: 64
+[2023.12.23-17.59.10:572][896]LogShaderCompilers: Display: Jobs assigned 67, completed 64 (95.52%)
+[2023.12.23-17.59.10:572][896]LogShaderCompilers: Display: Average time worker was idle: 157.76 s
+[2023.12.23-17.59.10:572][896]LogShaderCompilers: Display: Time job spent in pending queue: average 0.82 s, longest 4.52 s
+[2023.12.23-17.59.10:572][896]LogShaderCompilers: Display: Job execution time: average 4.13 s, max 5.94 s
+[2023.12.23-17.59.10:572][896]LogShaderCompilers: Display: Job life time (pending + execution): average 4.99 s, max 6.55
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display: Shader code size: average 49.276 KiB, min 29.613 KiB, max 72.324 KiB
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.47 s
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display: Jobs were issued in 19 batches (only local compilation was used), average 3.53 jobs/batch
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display: Average processing rate: 8.57 jobs/sec
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display: Total thread time: 48.73 s
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display: Total thread preprocess time: 3.077 s
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display: Percentage time preprocessing: 6.32%
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display: Effective parallelization: 6.52 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight (compiled    3 times, average 1.15 sec, max 1.55 sec, min 0.43 sec)
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 1.13 sec, max 1.45 sec, min 0.49 sec)
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 1.06 sec, max 1.43 sec, min 0.44 sec)
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    3 times, average 1.04 sec, max 1.35 sec, min 0.57 sec)
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    3 times, average 1.03 sec, max 1.37 sec, min 0.45 sec)
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 7.50% of total time (compiled    4 times, average 0.91 sec, max 1.36 sec, min 0.44 sec)
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.44% of total time (compiled    4 times, average 0.91 sec, max 1.36 sec, min 0.41 sec)
+[2023.12.23-17.59.10:573][896]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyLQ - 7.31% of total time (compiled    4 times, average 0.89 sec, max 1.41 sec, min 0.41 sec)
+[2023.12.23-17.59.10:574][896]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyHQSkylight - 7.05% of total time (compiled    3 times, average 1.15 sec, max 1.55 sec, min 0.43 sec)
+[2023.12.23-17.59.10:574][896]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.97% of total time (compiled    3 times, average 1.13 sec, max 1.45 sec, min 0.49 sec)
+[2023.12.23-17.59.10:574][896]LogShaderCompilers: Display: ================================================
+[2023.12.23-17.59.10:723][903]MaterialEditorStats: Base pass shader: 187 instructions
+[2023.12.23-17.59.10:724][903]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.23-17.59.10:724][903]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-17.59.10:724][903]MaterialEditorStats: Shader Count: 3
+[2023.12.23-17.59.10:792][906]MaterialEditorStats: Base pass shader: 187 instructions
+[2023.12.23-17.59.10:792][906]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-17.59.10:792][906]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.23-17.59.10:792][906]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-17.59.10:792][906]MaterialEditorStats: Shader Count: 4
+[2023.12.23-17.59.19:977][279]LogMaterial: Warning: [AssetLog] /Engine/Transient.M_Ball: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Function LinearTosRGB: Missing function input 'Linear'
+	Function LinearTosRGB: (Node If) If input A must be of type float.
+
+[2023.12.23-17.59.19:986][279]MaterialEditorStats: Error: [SM6] Function LinearTosRGB: Missing function input 'Linear'
+[2023.12.23-17.59.19:986][279]MaterialEditorStats: Error: [SM6] Function LinearTosRGB: (Node If) If input A must be of type float.
+[2023.12.23-17.59.20:030][280]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-17.59.21:831][357]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.23-17.59.21:831][357]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-17.59.21:831][357]MaterialEditorStats: Shader Count: 0
+[2023.12.23-17.59.21:898][359]MaterialEditorStats: Base pass shader: 187 instructions
+[2023.12.23-17.59.21:898][359]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-17.59.21:898][359]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.23-17.59.21:898][359]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-17.59.21:898][359]MaterialEditorStats: Shader Count: 4
+[2023.12.23-17.59.28:843][519]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_Game/Enemies/M_Enemies.M_Enemies
+[2023.12.23-17.59.28:851][519]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-17.59.28:851][519]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.23-17.59.29:116][519]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.23-17.59.29:116][519]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-17.59.29:116][519]MaterialEditorStats: Shader Count: 0
+[2023.12.23-17.59.29:126][519]LogViewport: Scene viewport resized to 376x444, mode Windowed.
+[2023.12.23-17.59.29:733][543]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-17.59.29:733][543]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.23-17.59.29:733][543]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-17.59.29:733][543]MaterialEditorStats: Shader Count: 2
+[2023.12.23-17.59.29:800][546]MaterialEditorStats: Base pass shader: 193 instructions
+[2023.12.23-17.59.29:800][546]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-17.59.29:800][546]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.23-17.59.29:800][546]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-17.59.29:800][546]MaterialEditorStats: Shader Count: 4
+[2023.12.23-17.59.36:244][829]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.23-17.59.36:244][829]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-17.59.36:244][829]MaterialEditorStats: Shader Count: 0
+[2023.12.23-17.59.36:319][831]MaterialEditorStats: Base pass shader: 187 instructions
+[2023.12.23-17.59.36:319][831]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-17.59.36:319][831]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.23-17.59.36:319][831]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-17.59.36:319][831]MaterialEditorStats: Shader Count: 4
+[2023.12.23-17.59.46:223][124]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.23-17.59.51:821][217]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.23-17.59.51:840][217]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.23-17.59.51:841][217]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-17.59.51:841][217]MaterialEditorStats: Shader Count: 0
+[2023.12.23-17.59.51:911][220]MaterialEditorStats: Base pass shader: 187 instructions
+[2023.12.23-17.59.51:911][220]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-17.59.51:911][220]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.23-17.59.51:911][220]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-17.59.51:911][220]MaterialEditorStats: Shader Count: 4
+[2023.12.23-17.59.55:189][353]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.23-17.59.55:189][353]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-17.59.55:189][353]MaterialEditorStats: Shader Count: 0
+[2023.12.23-17.59.55:307][355]MaterialEditorStats: Base pass shader: 193 instructions
+[2023.12.23-17.59.55:307][355]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-17.59.55:307][355]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.23-17.59.55:307][355]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-17.59.55:307][355]MaterialEditorStats: Shader Count: 4
+[2023.12.23-18.00.03:562][693]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.23-18.00.03:562][693]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-18.00.03:562][693]MaterialEditorStats: Shader Count: 0
+[2023.12.23-18.00.05:501][781]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-18.00.05:502][781]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.23-18.00.05:502][781]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-18.00.05:502][781]MaterialEditorStats: Shader Count: 1
+[2023.12.23-18.00.05:639][787]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.23-18.00.05:639][787]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-18.00.05:639][787]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.23-18.00.05:639][787]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-18.00.05:639][787]MaterialEditorStats: Shader Count: 4
+[2023.12.23-18.00.05:780][790]LogEditorTransaction: Undo Create Pin Link
+[2023.12.23-18.00.05:915][790]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.23-18.00.05:915][790]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-18.00.05:915][790]MaterialEditorStats: Shader Count: 0
+[2023.12.23-18.00.05:915][790]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.23-18.00.05:915][790]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-18.00.05:915][790]MaterialEditorStats: Shader Count: 0
+[2023.12.23-18.00.06:002][791]MaterialEditorStats: Base pass shader: 193 instructions
+[2023.12.23-18.00.06:002][791]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-18.00.06:002][791]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.23-18.00.06:002][791]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-18.00.06:002][791]MaterialEditorStats: Shader Count: 2
+[2023.12.23-18.00.06:232][794]MaterialEditorStats: Base pass shader: 193 instructions
+[2023.12.23-18.00.06:232][794]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-18.00.06:232][794]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.23-18.00.06:232][794]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-18.00.06:232][794]MaterialEditorStats: Shader Count: 4
+[2023.12.23-18.00.10:860][981]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.23-18.00.10:860][981]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-18.00.10:860][981]MaterialEditorStats: Shader Count: 0
+[2023.12.23-18.00.10:891][983]MaterialEditorStats: Base pass shader: 196 instructions
+[2023.12.23-18.00.10:891][983]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-18.00.10:891][983]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.23-18.00.10:891][983]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-18.00.10:891][983]MaterialEditorStats: Shader Count: 4
+[2023.12.23-18.00.15:605][188]LogEditorTransaction: Undo Create Pin Link
+[2023.12.23-18.00.15:689][188]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.23-18.00.15:689][188]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-18.00.15:689][188]MaterialEditorStats: Shader Count: 0
+[2023.12.23-18.00.15:689][188]MaterialEditorStats: Texture samplers: 0/16
+[2023.12.23-18.00.15:689][188]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-18.00.15:689][188]MaterialEditorStats: Shader Count: 0
+[2023.12.23-18.00.15:753][190]MaterialEditorStats: Base pass shader: 193 instructions
+[2023.12.23-18.00.15:753][190]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-18.00.15:753][190]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.23-18.00.15:753][190]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-18.00.15:753][190]MaterialEditorStats: Shader Count: 4
+[2023.12.23-18.00.15:858][192]MaterialEditorStats: Base pass shader: 193 instructions
+[2023.12.23-18.00.15:858][192]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-18.00.15:858][192]MaterialEditorStats: Texture samplers: 2/16
+[2023.12.23-18.00.15:858][192]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-18.00.15:858][192]MaterialEditorStats: Shader Count: 4
+[2023.12.23-18.00.41:092][192]LogMaterialEditor: Saving and Compiling material M_Ball
+[2023.12.23-18.00.41:238][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.12.23-18.00.41:976][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.12.23-18.00.41:991][192]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.23-18.00.43:498][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/BallGame/M_Ball" FILE="../../../../../../Users/brade/OneDrive/Documents/Unreal Projects/RollABallNew/RollABall/Content/_Game/BallGame/M_Ball.uasset" SILENT=true
+[2023.12.23-18.00.43:502][192]LogSavePackage: Moving output files for package: /Game/_Game/BallGame/M_Ball
+[2023.12.23-18.00.43:502][192]LogSavePackage: Moving '../../../../../../Users/brade/OneDrive/Documents/Unreal Projects/RollABallNew/RollABall/Saved/M_Ball6B0BCAE547CA3BC8FA954992B5369C1E.tmp' to '../../../../../../Users/brade/OneDrive/Documents/Unreal Projects/RollABallNew/RollABall/Content/_Game/BallGame/M_Ball.uasset'
+[2023.12.23-18.00.43:525][192]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.53 sec (total: 2.18 sec)
+[2023.12.23-18.00.43:529][192]AssetCheck: New page: Asset Save: M_Ball
+[2023.12.23-18.00.43:529][192]LogContentValidation: Display: Validating /Script/Engine.Material /Game/_Game/BallGame/M_Ball.M_Ball
+[2023.12.23-18.00.43:539][192]MaterialEditorStats: Base pass shader: 193 instructions
+[2023.12.23-18.00.43:539][192]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2023.12.23-18.00.43:539][192]MaterialEditorStats: MaxSampler: 241 instructions
+[2023.12.23-18.00.43:539][192]MaterialEditorStats: Texture samplers: 3/16
+[2023.12.23-18.00.43:539][192]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.12.23-18.00.43:539][192]MaterialEditorStats: Shader Count: 16
+[2023.12.23-18.00.46:777][355]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.23-18.00.47:124][355]LogSavePackage: Moving output files for package: /Game/_Game/BallGame/BallPawn
+[2023.12.23-18.00.47:124][355]LogSavePackage: Moving '../../../../../../Users/brade/OneDrive/Documents/Unreal Projects/RollABallNew/RollABall/Saved/BallPawn069F18564BB4596E1F4906B604DF45E6.tmp' to '../../../../../../Users/brade/OneDrive/Documents/Unreal Projects/RollABallNew/RollABall/Content/_Game/BallGame/BallPawn.uasset'
+[2023.12.23-18.00.47:133][355]LogFileHelpers: InternalPromptForCheckoutAndSave took 356 ms (total: 2.53 sec)
+[2023.12.23-18.00.47:143][355]AssetCheck: New page: Asset Save: BallPawn
+[2023.12.23-18.00.47:143][355]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_Game/BallGame/BallPawn.BallPawn
+[2023.12.23-18.00.51:010][466]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.23-18.00.51:025][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.23-18.00.51:025][466]PIE: New page: PIE session: Sandbox (Dec 23, 2023, 6:00:51 AM)
+[2023.12.23-18.00.51:025][466]LogPlayLevel: Display: Creating online subsystem for client :Context_11
+[2023.12.23-18.00.51:032][466]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.12.23-18.00.51:080][467]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_Sandbox
+[2023.12.23-18.00.51:084][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004550s)
+[2023.12.23-18.00.51:085][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/Sandbox.Sandbox to /Game/_Game/Maps/UEDPIE_0_Sandbox.Sandbox (0.004643s)
+[2023.12.23-18.00.51:107][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.12.23-18.00.51:108][467]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.23-18.00.51:108][467]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.23-18.00.51:109][467]LogAIModule: Creating AISystem for world Sandbox
+[2023.12.23-18.00.51:109][467]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2023.12.23-18.00.51:109][467]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.12.23-18.00.51:109][467]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.23-18.00.51:109][467]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.23-18.00.51:109][467]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.23-18.00.51:109][467]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.23-18.00.51:109][467]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.23-18.00.51:109][467]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.23-18.00.51:109][467]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.23-18.00.51:109][467]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.23-18.00.51:110][467]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.23-18.00.51:110][467]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.23-18.00.51:110][467]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.23-18.00.51:112][467]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.23-18.00.51:169][467]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.12.23-18.00.51:170][467]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.23-18.00.51:170][467]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.23-18.00.51:170][467]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.23-18.00.51:171][467]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.12.23-18.00.51:171][467]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.12.23-18.00.51:173][467]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.12.23-18.00.51:173][467]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.12.23-18.00.51:173][467]LogInit: FAudioDevice initialized with ID 3.
+[2023.12.23-18.00.51:173][467]LogAudio: Display: Audio Device (ID: 3) registered with world 'Sandbox'.
+[2023.12.23-18.00.51:173][467]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.12.23-18.00.51:178][467]LogLoad: Game class is 'BallGameMode_C'
+[2023.12.23-18.00.51:179][467]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_Sandbox.Sandbox up for play (max tick rate 60) at 2023.12.23-12.00.51
+[2023.12.23-18.00.51:179][467]LogWorld: Bringing up level for play took: 0.001021
+[2023.12.23-18.00.51:182][467]PIE: Server logged in
+[2023.12.23-18.00.51:183][467]PIE: Play in editor total start time 0.159 seconds.
+[2023.12.23-18.00.53:219][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.23-18.00.53:219][494]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_Sandbox
+[2023.12.23-18.00.53:219][494]LogWorld: UWorld::CleanupWorld for Sandbox, bSessionEnded=true, bCleanupResources=true
+[2023.12.23-18.00.53:220][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-18.00.53:275][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.23-18.00.53:282][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.23-18.00.53:297][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.23-18.00.53:298][494]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.12.23-18.00.53:298][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.12.23-18.00.53:301][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.12.23-18.00.53:320][494]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.12.23-18.00.53:410][495]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.12.23-18.00.59:735][578]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
